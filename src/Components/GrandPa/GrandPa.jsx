@@ -12,7 +12,7 @@ const GrandPa = () => {
             <h2>GrandPa</h2>
             <section className="flex">
                 <Dad asset={asset}></Dad>
-                <Uncle></Uncle>
+                <Uncle asset={asset}></Uncle>
                 <Aunty></Aunty>
             </section>
         </div>
