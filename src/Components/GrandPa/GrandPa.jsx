@@ -15,10 +15,11 @@ const GrandPa = () => {
 
     return (
         <div className="grandpa">
+            
             <h2>GrandPa</h2>
             {/* here also sjow the money */}
             <p>Net Money: {money}</p>
-            
+
             <MoneyContext.Provider value={[money, setMoney]}>
                 {/* by this provider every child can access the value of gold */}
                 <AssetContext.Provider value="gold">
